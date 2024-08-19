@@ -123,8 +123,7 @@ print("Packages Loaded!!!")
 
 
 
-#Xx = np.load("/alina-data1/sarwan/IEEE_BigData/Dataset/OHE_one_point_9_million_freq_vec.npy",allow_pickle=True)
-data_path = "/alina-data1/sarwan/Human_DNA_Data/"
+data_path = "/Human_DNA_Data/"
 data_name = "OHE_Human_DNA_Data_sequences_4380"
 Xx = np.load(data_path + data_name + ".npy")
 
