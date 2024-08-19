@@ -15,7 +15,7 @@ import pandas as pd
 
 
 
-seq_val_global = np.load("/alina-data1/sarwan/Federated_Learning/Dataset/Final_seq_9k.npy",allow_pickle=True)
+seq_val_global = np.load("/Federated_Learning/Dataset/Final_seq_9k.npy",allow_pickle=True)
 
 
 print("Data Loaded!!")
@@ -78,7 +78,7 @@ for seq_ind in range(len(seq_val_global)):
 # In[19]:
 
 
-np.save("/alina-data1/sarwan/Federated_Learning/Dataset/Spike2Vec_Embedding_9k.npy",frequency_vector)
+np.save("/Federated_Learning/Dataset/Spike2Vec_Embedding_9k.npy",frequency_vector)
 
 print("Embedding Saved!!")
 
