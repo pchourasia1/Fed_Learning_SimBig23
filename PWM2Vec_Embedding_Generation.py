@@ -15,7 +15,7 @@ import pandas as pd
 
 
 
-seq_data = np.load("/alina-data1/sarwan/Federated_Learning/Dataset/Final_seq_9k_with_padding.npy",allow_pickle=True)
+seq_data = np.load("/Federated_Learning/Dataset/Final_seq_9k_with_padding.npy",allow_pickle=True)
 
 
 print("Data Loaded!!")
@@ -234,7 +234,7 @@ stop = timeit.default_timer()
 print("PWM Time : ", stop - start)
 
 
-np.save("/alina-data1/sarwan/Federated_Learning/Dataset/PWM2Vec_Embedding_9k.npy",final_feature_vector)
+np.save("/Federated_Learning/Dataset/PWM2Vec_Embedding_9k.npy",final_feature_vector)
 
 print("Embedding Saved!!")
 
